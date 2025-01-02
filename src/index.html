@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="stylesheet" href="/src/output.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <!------------------navigation bar start-------------------->
+        <nav
+            class="p-3 md:bg-white bg-blue-900 flex items-center justify-between md:flex md:items-center md:justify-between ">
+            <div class="flex items-center gap-2">
+                <img class="w-10 h-10 rounded-full cursor-pointer" src="/assets/photo-1570464197285-9949814674a7.avif"
+                    alt="">
+                <span class="text-xl font-bold md:text-black text-white">Shoes-<span
+                        class="text-white md:text-black">Mark</span></span>
+            </div>
+            <!--------------- custom icons------------------->
+            <div class="text-white text-xl cursor-pointer font-bold sm:block md:hidden "><i id="btn"
+                    onclick="toggle(this)" class="ri-menu-line"></i>
+            </div>
+            <!--------------- custom icons------------------->
+            <!--------------- nav lists----------------->
+            <ul id="ul"
+                class=" top-[-100%] md:top-0 md:flex md:items-center gap-4  text-white font-medium md:static absolute md:bg-white bg-blue-900 w-full md:w-auto left-0 text-center md:py-0 py-5 md:pl-0 pl-5 ">
+                <li><a class="text-orange-500" href="#">Home</a></li>
+                <li><a class="md:text-black text-white" href="#">About</a></li>
+                <li><a class="md:text-black text-white" href="#">Blogs</a></li>
+                <li><a class="md:text-black text-white" href="#">Products</a></li>
+            </ul>
+            <!--------------- nav lists----------------->
+        </nav>
+        <!------------------navigation bar start-------------------->
+    </header>
+
+
+    <script src="/script.js"></script>
+</body>
+
+</html>
