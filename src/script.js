@@ -4,5 +4,6 @@ const ul = document.getElementById("nav-box");
 
 bar.addEventListener("click", () => {
   ul.classList.toggle("left-[0%]");
+  bar.classList.toggle("ri-close-large-line");
 });
 // nav bar responsive design end
