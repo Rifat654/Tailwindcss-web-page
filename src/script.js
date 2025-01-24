@@ -1,4 +1,6 @@
+const btn = document.getElementById("btn");
 const ul = document.getElementById("ul");
-function toggle(e) {
-  ul.classList.toggle("top-[9%");
-}
+
+btn.addEventListener("click", () => {
+  ul.classList.toggle("left-[-0%]");
+});
