@@ -11,12 +11,12 @@
 
 <body class="font-mincho">
     <!--================== header section start ====================-->
-    <header class="w-full h-screen bg-gray-900">
+    <header class=" w-full lg:h-screen h-auto bg-gray-900">
         <!------------------navigation bar start-------------------->
         <nav class="p-3  flex items-center justify-between ">
             <div class="flex items-center gap-2">
-                <img class="w-10 h-10 rounded-full cursor-pointer" src="/src/assets/logo.avif" alt="">
-                <span class="font-mincho text-xl font-bold text-white">Shoes-<span
+                <img class="md:w-10 w-5 md:h-10 h-5 rounded-full cursor-pointer" src="/src/assets/logo.avif" alt="">
+                <span class="font-mincho md:text-xl text-sm font-bold text-white">Shoes-<span
                         class="text-white md:text-orange-500">Mark</span></span>
             </div>
             <!--------------- custom icons------------------->
@@ -28,7 +28,7 @@
             <div id="nav-box"
                 class="  flex-col md:static absolute  left-[-100%] top-0 bg-opacity-30 backdrop-blur-md w-full h-[70vh] md:w-auto duration-300 md:h-auto md:flex md:items-center md:justify-center ">
                 <ul id="ul"
-                    class="md:flex-row flex-col flex md:static absolute md:top-0 top-36 md:left-0 left-[50%] text-center gap-4 font-bold">
+                    class="md:flex-row flex-col flex md:static absolute md:top-0 top-36 md:left-0 left-[50%] text-center gap-4  text-sm ">
                     <li><a class="text-orange-500" href="#">Home</a></li>
                     <li><a class=" text-white hover:text-orange-500 duration-300" href="#">Blogs</a></li>
                     <li><a class=" text-white hover:text-orange-500 duration-300" href="#">Products</a></li>
@@ -41,21 +41,34 @@
         <!------------------top sections starts-------------------->
         <section>
             <div>
+                <div
+                    class="text-white text-center md:text-left md:w-[50%] static md:absolute top-[25%] left-[4%] font-sans md:mt-4 mt-0">
+                    <h1 class="text-3xl md:text-4xl">winter style <br> with <span
+                            class="text-orange-500 font-mincho">sneakers</span></h1>
+                    <p class="text-[11px] text-slate-500 mt-2"><span class=" text-green-400">winter shoes
+                        </span>are made sit amet, consectetur adipisicing elit.
+                        <br> Quam hic
+                        provident perspiciatis
+                        earum
+                        nemo minima.
+                    </p>
+                </div>
                 <!-- shoes image -->
                 <div>
-                    <div class="  flex items-center justify-center ">
-                        <img src="/src/assets/jordern.png" alt="">
+                    <div class="  flex items-center justify-center  ">
+                        <img src="/src/assets/header.png" alt="shoes image">
                     </div>
-                </div>
-                <!-- icon card theme -->
-                <div>
-                    <div class="w-32 h-10 bg-white rounded relative">
-                        <p class="text-[12px] p-1 font-bold">make your life <br> <span
-                                class="text-orange-500 font-normal text-sm">better</span>
-                        </p>
-                        <div
-                            class="text-white absolute top-[-5px] right-[-5px] border-[2px] border-orange-500 bg-black rounded-full w-5 h-5 flex items-center justify-center cursor-pointer">
-                            <i class="ri-arrow-right-up-line"></i>
+
+                    <!-- icon card theme -->
+                    <div class="absolute  md:right-[30%] right-[7%] md:bottom-[50%] bottom-[25%] flex items-center ">
+                        <div class="w-32 h-12 bg-white rounded relative">
+                            <p class="text-[12px] p-1 font-bold">make your life <br> <span
+                                    class="text-orange-500 font-normal text-sm">better</span> 15% off
+                            </p>
+                            <div
+                                class="text-white absolute top-[-5px] right-[-5px] border-[2px] border-orange-500 bg-black rounded-full w-5 h-5 flex items-center justify-center cursor-pointer">
+                                <i class="ri-arrow-right-up-line"></i>
+                            </div>
                         </div>
                     </div>
                 </div>
