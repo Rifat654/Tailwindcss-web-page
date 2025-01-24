@@ -9,10 +9,10 @@
     <title>Shoes Mark</title>
 </head>
 
-<body class="font-primary">
+<body class="font-mincho">
     <header class="w-full h-screen bg-gray-900">
         <!------------------navigation bar start-------------------->
-        <nav class="p-3  flex items-center justify-between md:flex md:items-center md:justify-between ">
+        <nav class="p-3  flex items-center justify-between ">
             <div class="flex items-center gap-2">
                 <img class="w-10 h-10 rounded-full cursor-pointer" src="/src/assets/logo.avif" alt="">
                 <span class="font-mincho text-xl font-bold text-white">Shoes-<span
@@ -24,21 +24,24 @@
             </div>
             <!--------------- custom icons------------------->
             <!--------------- nav lists----------------->
-            <ul id="ul"
-                class=" bg-slate-900 md:h-[100vh]  md:left-[100%] duration-500 sm:gap-4 z-50 md:top-0 md:flex md:items-center gap-4  text-white font-medium  md:absolute w-full md:w-auto  text-center md:py-0 py-5 md:pl-0 pl-5">
-                <li><a class="text-orange-500" href="#">Home</a></li>
-                <li><a class=" text-white " href="#">About</a></li>
-                <li><a class=" text-white " href="#">Blogs</a></li>
-                <li><a class=" text-white " href="#">Products</a></li>
-            </ul>
+            <div id="nav-box"
+                class="  flex-col md:static absolute  left-[-100%] top-0 bg-opacity-30 backdrop-blur-md w-full h-[70vh] md:w-auto duration-300 md:h-auto md:flex md:items-center md:justify-center ">
+                <ul id="ul"
+                    class="md:flex-row flex-col flex md:static absolute md:top-0 top-36 md:left-0 left-[50%] text-center gap-4 font-bold">
+                    <li><a class="text-orange-500" href="#">Home</a></li>
+                    <li><a class=" text-white hover:text-orange-500 duration-300" href="#">About</a></li>
+                    <li><a class=" text-white hover:text-orange-500 duration-300" href="#">Blogs</a></li>
+                    <li><a class=" text-white hover:text-orange-500 duration-300" href="#">Products</a></li>
+                </ul>
+            </div>
             <!--------------- nav lists----------------->
         </nav>
         <!------------------navigation bar ends-------------------->
         <!------------------top sections starts-------------------->
         <section>
             <div>
-                <div class="w-[100%]">
-                    <div class="md:w-[100%] md:h-[100%]  flex items-center justify-center rotate-[-45deg]">
+                <div>
+                    <div class="  flex items-center justify-center ">
                         <img src="/src/assets/jordern.png" alt="">
                     </div>
                 </div>

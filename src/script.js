@@ -1,6 +1,6 @@
-const btn = document.getElementById("btn");
-const ul = document.getElementById("ul");
+const bar = document.getElementById("btn");
+const ul = document.getElementById("nav-box");
 
-btn.addEventListener("click", () => {
-  ul.classList.toggle("left-[-0%]");
+bar.addEventListener("click", () => {
+  ul.classList.toggle("left-[0%]");
 });
