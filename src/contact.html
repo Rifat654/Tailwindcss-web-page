@@ -10,10 +10,32 @@
 
 <body>
     <div class="flex items-center justify-center w-full h-screen contact">
-        <div class=" flex items-center justify-center bg-green-500 text-white w-[255px] h-[355px] ">
+        <div class="flex-col flex items-center justify-center bg-green-500 text-white w-[255px] h-[355px] ">
             <h1>hello world</h1>
+            <button id="ll" class="bg-white py-1 px-5 rounded-lg text-black">submit</button>
+
+        </div>
+        <div id="popUp" class="absolute flex-col flex items-center justify-center  w-[266px] h-[266px] bg-purple-700 ">
+            <div class="flex items-center justify-center flex-col">
+                <h1 class="text-white text-2xl ">ok thank you</h1>
+                <button id="popp" class="bg-white text-black">click</button>
+            </div>
         </div>
     </div>
+    <script>
+        const login = document.getElementById("ll");
+        const div = document.getElementById("popUp")
+        const pop = document.getElementById("popp")
+        login.addEventListener("click", () => {
+            div.style.display = "block"
+
+
+        })
+
+        pop.addEventListener("click", () => {
+            div.style.display = "none"
+        })
+    </script>
 </body>
 
 </html>
