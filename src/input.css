@@ -3,3 +3,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.contact {
+  background-image: url("/src/assets/back.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
