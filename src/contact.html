@@ -9,32 +9,46 @@
 </head>
 
 <body>
-    <div class="flex items-center justify-center w-full h-screen contact">
-        <div class="flex-col flex items-center justify-center bg-green-500 text-white w-[255px] h-[355px] ">
-            <h1>hello world</h1>
-            <button id="ll" class="bg-white py-1 px-5 rounded-lg text-black">submit</button>
+    <div class="contact flex items-center justify-center w-full h-screen">
+        <div class=" p-5 text-white w-[90%] sm:w-[345px]  h-[355px] 
+        shadow-white shadow-sm rounded-xl bg-opacity-30 backdrop-blur-md
+        ">
+            <form>
+                <h1 class="text-center text-2xl md:text-3xl">Login</h1>
+                <div class="flex flex-col gap-4 mt-10 p-3 ">
+                    <input type="email" name="Email" placeholder="Email" class="p-1 rounded-sm text-black ">
+                    <input type="password" name="password" placeholder="Password" class="p-1 rounded-sm text-black">
+                    <div class="relative">
+                        <a href="#" class="absolute  right-0 text-sm  hover:text-red-600">Forgot Password?</a>
+                    </div>
+                </div>
+                <button id="btn"
+                    class="bg-slate-50 hover:bg-green-700 text-black hover:text-white py-1 px-9 rounded-2xl hover:rounded-sm duration-300 mt-7 absolute  left-[32%]">Submit</button>
+            </form>
 
         </div>
-        <div id="popUp" class="absolute flex-col flex items-center justify-center  w-[266px] h-[266px] bg-purple-700 ">
+        <div id="popUp"
+            class="absolute flex-col  flex items-center justify-center w-[90%] sm:w-[366px] h-[266px] bg-white text-black rounded-md ">
             <div class="flex items-center justify-center flex-col">
-                <h1 class="text-white text-2xl ">ok thank you</h1>
-                <button id="popp" class="bg-white text-black">click</button>
+                <h1 class=" text-2xl text-green-600 ">Thank You</h1>
+                <p class="mb-4 text-green-600">Your are logged in successfully...</p>
+                <button id="popp" class=" text-white bg-green-600  rounded-xl px-5 ">click</button>
             </div>
         </div>
     </div>
     <script>
-        const login = document.getElementById("ll");
+        const login = document.getElementById("btn");
         const div = document.getElementById("popUp")
         const pop = document.getElementById("popp")
+
         login.addEventListener("click", () => {
             div.style.display = "block"
-
-
         })
 
-        pop.addEventListener("click", () => {
-            div.style.display = "none"
-        })
+        // pop.addEventListener("click", () => {
+        //     div.style.display = "block"
+
+        // })
     </script>
 </body>
 
