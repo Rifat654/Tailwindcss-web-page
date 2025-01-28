@@ -1036,9 +1036,6 @@ video {
 
 #popUp {
   display: none;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 .hover\:rounded-sm:hover{
