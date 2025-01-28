@@ -25,3 +25,10 @@
 #popUp {
   display: none;
 }
+
+/* wave custom style */
+
+.wave {
+  background-image: url(./assets/david-becker-cIffDN_GqoA-unsplash.jpg);
+  background-color: white;
+}
