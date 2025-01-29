@@ -34,18 +34,18 @@
 /* card slider custom style */
 
 .box1 {
-  background-image: url(/src/assets/card1.png);
+  background-image: url(./assets/card1.jpg);
   background-size: cover;
 }
 .box2 {
-  background-image: url(/src/assets/card1.png);
+  background-image: url(./assets/card2.jpg);
   background-size: cover;
 }
 .box3 {
-  background-image: url(/src/assets/card1.png);
+  background-image: url(/src/assets/card3.jpg);
   background-size: cover;
 }
 .box4 {
-  background-image: url(/src/assets/card1.png);
+  background-image: url(./assets/card4.jpg);
   background-size: cover;
 }
