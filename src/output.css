@@ -764,6 +764,10 @@ video {
   height: 100vh;
 }
 
+.h-full{
+  height: 100%;
+}
+
 .w-32{
   width: 8rem;
 }
@@ -1110,19 +1114,31 @@ video {
   display: none;
 }
 
-/* wave custom style */
-
-.wave {
-  background-image: url(./assets/david-becker-cIffDN_GqoA-unsplash.jpg);
-  background-color: white;
+.curcle {
+  background-image: url(/src/assets/curcle.jpg);
+  background-size: cover;
 }
 
 /* card slider custom style */
 
-.c_box1 {
-  background-image: url(/src/assets/pexels-felipepelaquim-1895019.jpg);
+.box1 {
+  background-image: url(/src/assets/card1.png);
   background-size: cover;
-  background-blend-mode: darken;
+}
+
+.box2 {
+  background-image: url(/src/assets/card2.png);
+  background-size: cover;
+}
+
+.box3 {
+  background-image: url(/src/assets/card4.png);
+  background-size: cover;
+}
+
+.box4 {
+  background-image: url(/src/assets/card3.png);
+  background-size: cover;
 }
 
 .hover\:rounded-sm:hover{
@@ -1170,20 +1186,16 @@ video {
     width: 100%;
   }
 
+  .sm\:w-\[250px\]{
+    width: 250px;
+  }
+
   .sm\:w-\[345px\]{
     width: 345px;
   }
 
   .sm\:w-\[366px\]{
     width: 366px;
-  }
-
-  .sm\:w-\[250px\]{
-    width: 250px;
-  }
-
-  .sm\:w-\[200px\]{
-    width: 200px;
   }
 
   .sm\:justify-around{
@@ -1268,6 +1280,10 @@ video {
 
   .md\:w-\[70\%\]{
     width: 70%;
+  }
+
+  .md\:w-\[80\%\]{
+    width: 80%;
   }
 
   .md\:w-auto{

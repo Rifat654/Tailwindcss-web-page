@@ -26,16 +26,25 @@
   display: none;
 }
 
-/* wave custom style */
-
-.wave {
-  background-image: url(./assets/david-becker-cIffDN_GqoA-unsplash.jpg);
-  background-color: white;
+.curcle {
+  background-image: url(/src/assets/curcle.jpg);
+  background-size: cover;
 }
 
 /* card slider custom style */
-.c_box1 {
-  background-image: url(/src/assets/pexels-felipepelaquim-1895019.jpg);
+.box1 {
+  background-image: url(/src/assets/card1.png);
   background-size: cover;
-  background-blend-mode: darken;
+}
+.box2 {
+  background-image: url(/src/assets/card2.png);
+  background-size: cover;
+}
+.box3 {
+  background-image: url(/src/assets/card4.png);
+  background-size: cover;
+}
+.box4 {
+  background-image: url(/src/assets/card3.png);
+  background-size: cover;
 }
