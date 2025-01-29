@@ -27,7 +27,7 @@
 }
 
 .curcle {
-  background-image: url(./src/assets/curcle.jpg);
+  background-image: url(/src/assets/curcle.jpg);
   background-size: cover;
 }
 
