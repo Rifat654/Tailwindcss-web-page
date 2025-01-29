@@ -27,7 +27,7 @@
 }
 
 .curcle {
-  background-image: url(/src/assets/curcle.jpg);
+  background-image: url(./assets/curcle.jpg);
   background-size: cover;
 }
 
@@ -42,7 +42,7 @@
   background-size: cover;
 }
 .box3 {
-  background-image: url(./assets/card3.jpg);
+  background-image: url(./assets/card1.jpg);
   background-size: cover;
 }
 .box4 {
