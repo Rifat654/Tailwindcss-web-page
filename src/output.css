@@ -602,6 +602,10 @@ video {
   position: relative;
 }
 
+.bottom-0{
+  bottom: 0px;
+}
+
 .left-\[-100\%\]{
   left: -100%;
 }
@@ -657,6 +661,11 @@ video {
 .mx-auto{
   margin-left: auto;
   margin-right: auto;
+}
+
+.my-16{
+  margin-top: 4rem;
+  margin-bottom: 4rem;
 }
 
 .my-2{
@@ -731,6 +740,10 @@ video {
   height: 266px;
 }
 
+.h-\[300px\]{
+  height: 300px;
+}
+
 .h-\[355px\]{
   height: 355px;
 }
@@ -757,6 +770,10 @@ video {
 
 .w-5{
   width: 1.25rem;
+}
+
+.w-\[250px\]{
+  width: 250px;
 }
 
 .w-\[40px\]{
@@ -799,10 +816,6 @@ video {
   justify-content: space-between;
 }
 
-.justify-around{
-  justify-content: space-around;
-}
-
 .gap-16{
   gap: 4rem;
 }
@@ -825,6 +838,10 @@ video {
 
 .rounded-full{
   border-radius: 9999px;
+}
+
+.rounded-lg{
+  border-radius: 0.5rem;
 }
 
 .rounded-md{
@@ -932,6 +949,10 @@ video {
   padding-bottom: 0.25rem;
 }
 
+.text-left{
+  text-align: left;
+}
+
 .text-center{
   text-align: center;
 }
@@ -999,6 +1020,11 @@ video {
   color: rgb(22 163 74 / var(--tw-text-opacity, 1));
 }
 
+.text-orange-400{
+  --tw-text-opacity: 1;
+  color: rgb(251 146 60 / var(--tw-text-opacity, 1));
+}
+
 .text-orange-500{
   --tw-text-opacity: 1;
   color: rgb(249 115 22 / var(--tw-text-opacity, 1));
@@ -1022,11 +1048,6 @@ video {
 .text-white{
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
-}
-
-.text-orange-400{
-  --tw-text-opacity: 1;
-  color: rgb(251 146 60 / var(--tw-text-opacity, 1));
 }
 
 .shadow-lg{
@@ -1096,6 +1117,14 @@ video {
   background-color: white;
 }
 
+/* card slider custom style */
+
+.c_box1 {
+  background-image: url(/src/assets/pexels-felipepelaquim-1895019.jpg);
+  background-size: cover;
+  background-blend-mode: darken;
+}
+
 .hover\:rounded-sm:hover{
   border-radius: 0.125rem;
 }
@@ -1147,6 +1176,14 @@ video {
 
   .sm\:w-\[366px\]{
     width: 366px;
+  }
+
+  .sm\:w-\[250px\]{
+    width: 250px;
+  }
+
+  .sm\:w-\[200px\]{
+    width: 200px;
   }
 
   .sm\:justify-around{
@@ -1253,12 +1290,13 @@ video {
     justify-content: center;
   }
 
-  .md\:justify-around{
-    justify-content: space-around;
-  }
-
   .md\:text-left{
     text-align: left;
+  }
+
+  .md\:text-2xl{
+    font-size: 1.5rem;
+    line-height: 2rem;
   }
 
   .md\:text-3xl{
@@ -1274,11 +1312,6 @@ video {
   .md\:text-xl{
     font-size: 1.25rem;
     line-height: 1.75rem;
-  }
-
-  .md\:text-2xl{
-    font-size: 1.5rem;
-    line-height: 2rem;
   }
 
   .md\:text-orange-500{

@@ -5,6 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
+
+    <!-- swiper js CDN link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <!-- link css tailwind for styling -->
     <link rel="stylesheet" href="/src/output.css">
     <title>Shoes Mark</title>
 </head>
@@ -88,7 +92,7 @@
         <!-------------- shoes brand section start--------------------->
         <section>
             <div>
-                <div class="text-center my-5 text-2xl md:text-3xl text-orange-700 font-bold">
+                <div class="text-center my-5 text-3xl md:text-4xl text-orange-700 font-bold">
                     <h1>Shoes Brand</h1>
                 </div>
                 <div class="container mx-auto w-full md:w-[70%] px-3 sm:px-0 grid grid-cols-1 md:grid-cols-3 gap-4">
@@ -159,8 +163,53 @@
         </section>
         <!-------------- About section end--------------------->
         <!-------------- Features section start--------------------->
-        <section class="feature">
+        <section class="feature my-16">
+            <div class="text-center my-5 text-3xl md:text-4xl text-orange-700 font-bold">
+                <h1>Products </h1>
+            </div>
+            <div class="swiper">
+                <div class="swiper-wrapper ">
+                    <!-- card 1 -->
+                    <div class="swiper-slide cursor-pointer relative
+                     w-full sm:w-[250px] h-[300px] mx-auto  border-2  border-gray-200 shadow-md rounded-lg p-2 c_box1">
+                        <div class="absolute bottom-0 my-2 text-left text-white">
+                            <h1 class="font-bold text-2xl">ADIDAS</h1>
+                            <p class="text-[13px]">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit.</p>
+                        </div>
+                    </div>
 
+                    <!-- card 2 -->
+                    <div class="swiper-slide cursor-pointer relative
+             w-[250px] h-[300px] mx-auto  border-2  border-gray-200 shadow-md rounded-lg p-2 c_box1">
+                        <div class="absolute bottom-0 my-2 text-left text-white">
+                            <h1 class="font-bold text-2xl">ADIDAS</h1>
+                            <p class="text-[13px]">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit.</p>
+                        </div>
+                    </div>
+
+                    <!-- card 3 -->
+                    <div class="swiper-slide cursor-pointer relative
+         w-[250px] h-[300px] mx-auto  border-2  border-gray-200 shadow-md rounded-lg p-2 c_box1">
+                        <div class="absolute bottom-0 my-2 text-left text-white">
+                            <h1 class="font-bold text-2xl">ADIDAS</h1>
+                            <p class="text-[13px]">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit.</p>
+                        </div>
+                    </div>
+                    <!-- card 4 -->
+                    <div class="swiper-slide cursor-pointer relative
+                         w-[250px] h-[300px] mx-auto  border-2  border-gray-200 shadow-md rounded-lg p-2 c_box1">
+                        <div class="absolute bottom-0 my-2 text-left text-white">
+                            <h1 class="font-bold text-2xl">ADIDAS</h1>
+                            <p class="text-[13px]">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit.</p>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- Navigation Buttons -->
+                <div class="text-white swiper-button-prev"></div>
+                <div class="text-white swiper-button-next"></div>
+            </div>
+            </div>
         </section>
         <!-------------- Features section end--------------------->
 
@@ -201,6 +250,10 @@
         </div>
     </footer>
     <!--================== Footer end ====================-->
+    <!-- swiper.js script -->
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- custom js script -->
     <script src="/src/script.js"></script>
 </body>
 

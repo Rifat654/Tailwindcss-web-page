@@ -32,3 +32,10 @@
   background-image: url(./assets/david-becker-cIffDN_GqoA-unsplash.jpg);
   background-color: white;
 }
+
+/* card slider custom style */
+.c_box1 {
+  background-image: url(/src/assets/pexels-felipepelaquim-1895019.jpg);
+  background-size: cover;
+  background-blend-mode: darken;
+}
