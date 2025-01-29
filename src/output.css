@@ -1035,7 +1035,7 @@ video {
 }
 
 .box3 {
-  background-image: url(/src/assets/card3.jpg);
+  background-image: url(./assets/card3.jpg);
   background-size: cover;
 }
 
