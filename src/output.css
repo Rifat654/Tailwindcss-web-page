@@ -767,31 +767,30 @@ video {
 }
 
 .curcle {
-  background-image: url(./assets/curcle.jpg);
+  background-image: url(/src/assets/curcle.jpg);
   background-size: cover;
 }
 
 /* card slider custom style */
 
-/* .box1 {
-  background-image: url(./assets/card1.png);
-  background-size: cover;
-}
-.box2 {
-  background-image: url(./assets/card2.png);
-  background-size: cover;
-}
-.box3 {
-  background-image: url(./assets/card4.png);
-  background-size: cover;
-}
-.box4 {
-  background-image: url(./assets/card3.png);
-  background-size: cover;
-} */
-
 .box1 {
-  background-color: black;
+  background-image: url(/src/assets/card1.png);
+  background-size: cover;
+}
+
+.box2 {
+  background-image: url(/src/assets/card1.png);
+  background-size: cover;
+}
+
+.box3 {
+  background-image: url(/src/assets/card1.png);
+  background-size: cover;
+}
+
+.box4 {
+  background-image: url(/src/assets/card1.png);
+  background-size: cover;
 }
 
 .hover\:rounded-sm:hover{
