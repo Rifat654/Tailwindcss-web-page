@@ -5,7 +5,7 @@ const ul = document.getElementById("nav");
 bar.addEventListener("click", () => {
   ul.classList.toggle("left-[0%]");
   bar.classList.toggle("ri-close-large-line");
-  console.log("js is working");
+  console.log("js working");
 });
 // nav bar responsive design end
 
