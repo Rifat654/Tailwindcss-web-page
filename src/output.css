@@ -610,12 +610,20 @@ video {
   left: -100%;
 }
 
+.left-\[32\%\]{
+  left: 32%;
+}
+
 .left-\[4\%\]{
   left: 4%;
 }
 
 .left-\[50\%\]{
   left: 50%;
+}
+
+.right-0{
+  right: 0px;
 }
 
 .right-\[-5px\]{
@@ -676,8 +684,16 @@ video {
   margin-bottom: 2rem;
 }
 
+.mb-4{
+  margin-bottom: 1rem;
+}
+
 .mt-0{
   margin-top: 0px;
+}
+
+.mt-10{
+  margin-top: 2.5rem;
 }
 
 .mt-2{
@@ -688,8 +704,16 @@ video {
   margin-top: 1rem;
 }
 
+.mt-7{
+  margin-top: 1.75rem;
+}
+
 .mt-8{
   margin-top: 2rem;
+}
+
+.block{
+  display: block;
 }
 
 .flex{
@@ -708,8 +732,16 @@ video {
   height: 1.25rem;
 }
 
+.h-\[266px\]{
+  height: 266px;
+}
+
 .h-\[300px\]{
   height: 300px;
+}
+
+.h-\[355px\]{
+  height: 355px;
 }
 
 .h-\[40px\]{
@@ -746,6 +778,10 @@ video {
 
 .w-\[80\%\]{
   width: 80%;
+}
+
+.w-\[90\%\]{
+  width: 90%;
 }
 
 .w-full{
@@ -792,6 +828,10 @@ video {
   border-radius: 0.25rem;
 }
 
+.rounded-2xl{
+  border-radius: 1rem;
+}
+
 .rounded-full{
   border-radius: 9999px;
 }
@@ -800,8 +840,16 @@ video {
   border-radius: 0.5rem;
 }
 
+.rounded-md{
+  border-radius: 0.375rem;
+}
+
 .rounded-sm{
   border-radius: 0.125rem;
+}
+
+.rounded-xl{
+  border-radius: 0.75rem;
 }
 
 .border-2{
@@ -837,9 +885,19 @@ video {
   background-color: rgb(17 24 39 / var(--tw-bg-opacity, 1));
 }
 
+.bg-green-600{
+  --tw-bg-opacity: 1;
+  background-color: rgb(22 163 74 / var(--tw-bg-opacity, 1));
+}
+
 .bg-orange-500{
   --tw-bg-opacity: 1;
   background-color: rgb(249 115 22 / var(--tw-bg-opacity, 1));
+}
+
+.bg-slate-50{
+  --tw-bg-opacity: 1;
+  background-color: rgb(248 250 252 / var(--tw-bg-opacity, 1));
 }
 
 .bg-white{
@@ -863,6 +921,10 @@ video {
   padding: 0.75rem;
 }
 
+.p-5{
+  padding: 1.25rem;
+}
+
 .px-2{
   padding-left: 0.5rem;
   padding-right: 0.5rem;
@@ -871,6 +933,21 @@ video {
 .px-3{
   padding-left: 0.75rem;
   padding-right: 0.75rem;
+}
+
+.px-5{
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+
+.px-9{
+  padding-left: 2.25rem;
+  padding-right: 2.25rem;
+}
+
+.py-1{
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
 }
 
 .text-left{
@@ -929,9 +1006,19 @@ video {
   font-weight: 400;
 }
 
+.text-black{
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity, 1));
+}
+
 .text-green-400{
   --tw-text-opacity: 1;
   color: rgb(74 222 128 / var(--tw-text-opacity, 1));
+}
+
+.text-green-600{
+  --tw-text-opacity: 1;
+  color: rgb(22 163 74 / var(--tw-text-opacity, 1));
 }
 
 .text-orange-400{
@@ -976,8 +1063,19 @@ video {
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
+.shadow-sm{
+  --tw-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+  --tw-shadow-colored: 0 1px 2px 0 var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
 .shadow-black{
   --tw-shadow-color: #000;
+  --tw-shadow: var(--tw-shadow-colored);
+}
+
+.shadow-white{
+  --tw-shadow-color: #fff;
   --tw-shadow: var(--tw-shadow-colored);
 }
 
@@ -1007,8 +1105,14 @@ video {
 }
 
 .curcle {
-  background-image: url(./assets/curcle.jpg);
+  background-image: url(./assets/card2.jpg);
   background-size: cover;
+}
+
+/* contact form side */
+
+.contact {
+  background-image: url(./assets/curcle.jpg);
 }
 
 /* card slider custom style */
@@ -1033,6 +1137,15 @@ video {
   background-size: cover;
 }
 
+.hover\:rounded-sm:hover{
+  border-radius: 0.125rem;
+}
+
+.hover\:bg-green-700:hover{
+  --tw-bg-opacity: 1;
+  background-color: rgb(21 128 61 / var(--tw-bg-opacity, 1));
+}
+
 .hover\:font-bold:hover{
   font-weight: 700;
 }
@@ -1040,6 +1153,16 @@ video {
 .hover\:text-orange-500:hover{
   --tw-text-opacity: 1;
   color: rgb(249 115 22 / var(--tw-text-opacity, 1));
+}
+
+.hover\:text-red-600:hover{
+  --tw-text-opacity: 1;
+  color: rgb(220 38 38 / var(--tw-text-opacity, 1));
+}
+
+.hover\:text-white:hover{
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity, 1));
 }
 
 @media (min-width: 640px){
@@ -1061,6 +1184,14 @@ video {
 
   .sm\:w-\[250px\]{
     width: 250px;
+  }
+
+  .sm\:w-\[345px\]{
+    width: 345px;
+  }
+
+  .sm\:w-\[366px\]{
+    width: 366px;
   }
 
   .sm\:justify-around{

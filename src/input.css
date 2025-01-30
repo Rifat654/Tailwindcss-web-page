@@ -20,10 +20,13 @@
 }
 
 .curcle {
-  background-image: url(./assets/curcle.jpg);
+  background-image: url(./assets/card2.jpg);
   background-size: cover;
 }
-
+/* contact form side */
+.contact {
+  background-image: url(./assets/curcle.jpg);
+}
 /* card slider custom style */
 
 .box1 {
