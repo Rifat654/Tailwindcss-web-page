@@ -610,10 +610,6 @@ video {
   left: -100%;
 }
 
-.left-\[0\%\]{
-  left: 0%;
-}
-
 .left-\[4\%\]{
   left: 4%;
 }
@@ -993,13 +989,6 @@ video {
 
 .duration-300{
   transition-duration: 300ms;
-}
-
-.contact {
-  background: url("./src/assets/image.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
 }
 
 #pop {

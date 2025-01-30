@@ -4,13 +4,6 @@
 @tailwind components;
 @tailwind utilities;
 
-.contact {
-  background: url("./src/assets/image.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-
 #pop {
   top: 50%;
   left: 50%;
